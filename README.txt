@@ -18,7 +18,6 @@ The template used is by:
 	aj@lkn.io | @ajlkn
 	Icons:
 		Font Awesome (fontawesome.io)
-
 	Other:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
