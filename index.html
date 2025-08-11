@@ -1,159 +1,191 @@
 <!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Refactored single‑page portfolio based on "Solid State" by HTML5 UP
+  - Consolidates Education & removes external pages (education.html / elements.html)
+  - Uses in‑page anchors for navigation
 -->
 <html>
-	<head>
-		<title>Jayden's Portfolio Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Jayden's Portfolio Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="#home">JS</a></h1>
+        <nav>
+          <a
+            href="https://www.linkedin.com/in/jayden-sastradi-6573222b6/"
+            target="_blank"
+            class="social-link"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:XJayden0822@gmail.com">Lets Talk</a>
+          <a href="#menu" aria-label="Open menu">Menu</a>
+        </nav>
+      </header>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+      <!-- Menu (in‑page anchors) -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#creator">Creator</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+          <a href="#" class="close">Close</a>
+        </div>
+      </nav>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-					<!-- this header is in the top left corner-->
-						<h1><a href="index.html">JS</a></h1>
-						<nav>
-							<a href="https://www.linkedin.com/in/jayden-sastradi-6573222b6/" target="_blank" class="social-link">
-								<i class="fab fa-linkedin"></i>
-							  </a>
-							<a href="mailto:XJayden0822@gmail.com">Lets Talk</a>
-						</nav>
-					</header>
+      <!-- Banner / Home -->
+      <section id="home" class="banner">
+        <div class="inner">
+          <div class="logo"><span class="icon fa-gem"></span></div>
+          <h2>Jayden Sastradi</h2>
+          <p>Adaptive ⋅ Learner ⋅ Creator</p>
+        </div>
+      </section>
 
-				<!-- Menu -->
-				<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="education.html">Education</a></li>
-								<li><a href="elements.html">Elements</a></li>
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <!-- About -->
+        <section id="about" class="wrapper spotlight style1">
+          <div class="inner">
+            <a class="image"><img src="images/pic01.jpg" alt="Jayden Sastradi" /></a>
+            <div class="content">
+              <h2 class="major">About Me</h2>
+              <p>
+                Current Sophomore at Seattle U with life experience of living in Taiwan and Bali.
+                Aspiring to be a software developer and cyber security technician in the future.
+                Currently looking for internship opportunity
+              </p>
+            </div>
+          </div>
+        </section>
 
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-					
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>Jayden Sastradi</h2>
+        <!-- Creator / Projects -->
+        <section id="creator" class="wrapper alt spotlight style2">
+          <div class="inner">
+            <a class="image"><img src="images/pic10.jpg" alt="Jayden Sastradi" /></a>
+            <div class="content">
+              <h2 class="major">Creator</h2>
+              <p>Project Repository</p>
+              <a href="https://github.com/VaporificFawn55" class="special" target="_blank" rel="noreferrer">Github</a>
+            </div>
+          </div>
+        </section>
 
-							<p>Adaptive ⋅ Learner ⋅ Creator </p>
-						</div>
-					</section>
+        <!-- Resume -->
+        <section id="resume" class="wrapper spotlight style3">
+          <div class="inner">
+            <a class="image"><img src="images/pic09.jpg" alt="Jayden Sastradi" /></a>
+            <div class="content">
+              <h2 class="major">My Resume</h2>
+              <a href="images/Resume.pdf" class="special" target="_blank" rel="noreferrer">Resume</a>
+            </div>
+          </div>
+        </section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+        <!-- Skills -->
+        <section id="skills" class="wrapper">
+          <div class="inner">
+            <header class="major">
+              <h2>Skills</h2>
+            </header>
+            <div class="content">
+              <p>C++</p>
+              <p><!-- add more skills here --></p>
+            </div>
+          </div>
+        </section>
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a  class="image"><img src="images/pic01.jpg" alt="Jayden Sastradi" /></a>
-									<div class="content">
-										<h2 class="major">About Me</h2>
-										<p>Current Sophomore at Seattle U with life experience of living in Taiwan and Bali. Aspiring to be a software developer and cyber security technician in the future. Currently looking for internship opportunity</p>
+        <!-- Experience -->
+        <section id="experience" class="wrapper">
+          <div class="inner">
+            <h2>Experience</h2>
+            <section class="features">
+              <article>
+                <a href="#" class="image"><img src="images/pic05.jpg" alt="Headstarter Fellow" /></a>
+                <h3 class="major">Headstarter Fellow</h3>
+                <p>July 2024 - Current</p>
+              </article>
+              <!-- Add more experience cards as needed -->
+            </section>
+          </div>
+        </section>
 
-									</div>
-								</div>
-							</section>
+        <!-- Education (merged from education.html) -->
+        <section id="education" class="wrapper">
+          <div class="inner">
+            <h2>Education</h2>
+            <section class="features">
+              <article>
+                <a href="#" class="image"><img src="images/uwlogo.jpg" alt="UW Bothell logo" /></a>
+                <h3 class="major">University of Washington at Bothell</h3>
+                <p>January 2025 - Present</p>
+                <a href="https://www.uwb.edu/" class="special" target="_blank" rel="noreferrer">Learn more</a>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/sulogo.jpg" alt="Seattle University logo" /></a>
+                <h3 class="major">Seattle University</h3>
+                <p>September 2023 - December 2024</p>
+                <a href="https://www.seattleu.edu/" class="special" target="_blank" rel="noreferrer">Learn more</a>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/ISlogo.jpg" alt="I-Shou International School logo" /></a>
+                <h3 class="major">I-Shou International School</h3>
+                <p>September 2019 - July 2023</p>
+                <a href="https://www.iis.kh.edu.tw/" class="special" target="_blank" rel="noreferrer">Learn more</a>
+              </article>
+            </section>
+          </div>
+        </section>
+      </section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a  class="image"><img src="images/pic10.jpg" alt="Jayden Sastradi" /></a>
-									<div class="content">
-										<h2 class="major">Creator</h2>
-										<p>Project Repository</p>
-										<a href="https://github.com/VaporificFawn55" class="special">Github</a>
-									</div>
-								</div>
-							</section>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">Get in touch</h2>
+          <p>Feel free to reach out for collaborations or opportunities.</p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope"><a href="mailto:XJayden0822@gmail.com">XJayden0822@gmail.com</a></li>
+            <li class="icon brands fa-github"><a href="https://github.com/VaporificFawn55" target="_blank" rel="noreferrer">github.com/VaporificFawn55</a></li>
+            <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jayden-sastradi-6573222b6/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Jayden Sastradi. All rights reserved.</li>
+            <li>
+              Design base: <a href="http://html5up.net" target="_blank" rel="noreferrer">HTML5 UP</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a  class="image"><img src="images/pic09.jpg" alt="Jayden Sastradi" /></a>
-									<div class="content">
-										<h2 class="major">My Resume</h2>
-										<a href="images/Resume.pdf" class="special">Resume</a>
-									</div>
-								</div>
-							</section>
-							<!-- Skills and abilities -->
-							<section id="main" class="wrapper">
-								<div class="inner">
-								  <header class="major">
-									<h2>Skills</h2>
-								  </header>
-								  <div class="content">
-									<p>C++</p>
-									<p></p>
-								  </div>
-								</div>
-							  </section>
-							
-							<!-- Experience  -->
-							<div class="wrapper ">
-								<div class="inner">
-									<h2>Experience </h2>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="Jayden Sastradi" /></a>
-											<h3 class="major">Headstarter Fellow</h3>
-											<p>July 2024 - Current</p>
-										</article>
-
-									</section>
-
-								</div>
-							</div>
-
-					</section>
-							<!-- Education  -->
-							<div class="wrapper">
-								<div class="inner">
-									<h2>Education </h2>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/sulogo.jpg" alt="Jayden Sastradi" /></a>
-											<h3 class="major">Seattle University</h3>
-											<p>September 2023 - Current</p>
-											<a href="https://www.seattleu.edu/" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/ISlogo.jpg" alt="Jayden Sastradi" /></a>
-											<h3 class="major">I-Shou International School</h3>
-											<p>September 2019 - July 2023</p>
-											<a href="https://www.iis.kh.edu.tw/" class="special">Learn more</a>
-										</article>
-									</section>
-
-								</div>
-							</div>
-
-					</section>
-					</section>
-
-				
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
